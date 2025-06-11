@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Emojify",
+  "version": "1.0",
+  "description": "Enhances selected text with relevant emojis.",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

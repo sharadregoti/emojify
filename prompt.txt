@@ -1,0 +1,22 @@
+**Goal:**
+Develop a Chrome extension that enhances selected text with relevant emojis, making messages more expressive and fun.
+
+**Problem:**
+I often struggle to naturally include emojis in my text messages. I'd like a tool that can understand the context of my message and suggest emojis that match the mood or topic.
+
+**Extension Workflow:**
+
+1. User selects text on any webpage (primarily from textboxes or editable fields).
+2. User right-clicks on the selected text.
+3. A context menu appears with an option labeled **"Emojify"**.
+4. Upon clicking **"Emojify"**, the extension processes the selected text.
+5. The original text is replaced with an enhanced version that includes contextually relevant emojis.
+
+**Technology Stack:**
+
+* Chrome Extension APIs (Context Menus, Scripting, DOM Manipulation)
+* Gemini API (for emoji-enhanced text generation)
+
+**Prompt to Send to Gemini API:**
+
+> *You are a helpful assistant that enhances user messages by adding relevant emojis. Given a piece of text, return the same text but with appropriate emojis inserted naturally within or at the end. The emojis should match the meaning, tone, or subject of the message. For instance, if the message is about celebrating a birthday, include 🎉, 🎂, or 🥳. If it’s about travel, consider ✈️, 🏖️, or 🌍. Do not overuse emojis—use just enough to make the message feel expressive without overwhelming it. Maintain the original tone and clarity of the message.*
