@@ -14,5 +14,11 @@
   },
   "action": {
     "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "16-smiley-icon.png",
+    "32": "32-smiley-icon.png",
+    "48": "48-smiley-icon.png",
+    "128": "128-smiley-icon.png"
   }
 }
